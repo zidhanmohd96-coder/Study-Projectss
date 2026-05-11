@@ -18,7 +18,7 @@ void clear_screen();
 int main()
 {
     int num_tasks;
-    printf("This is a progress bar demonstration program.\n\n");
+    printf("Progress bar demonstration program.\n\n");
     printf("Enter the number of tasks you need to track (max %d): ", MAX_TASKS);
     if(scanf("%d", &num_tasks) != 1 || num_tasks < 1 || num_tasks > MAX_TASKS) {
         printf("Invalid number of tasks. Please enter a number between 1 and %d.\n", MAX_TASKS);
@@ -53,7 +53,7 @@ int main()
     }
         sleep(1); //Sleep for 1 second.
     }
-    printf("All tasks completed!\nThankyou for using the progress bar demo program.\n");
+    printf("All tasks completed!\nThankyou for using the progress bar demo program by ZiMu.\n");
 
     return 0;
 }
